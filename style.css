@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins' ,sans-serif;
+}
+body{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/top-view-notebooks-calculator_23-2149103982.jpg?semt=ais_hybrid ");
+   background-size: cover;
+}
+.calculator{
+    border:1px solid #717377;
+    padding:20px;
+    border-radius:16px;
+    background-color: darkseagreen;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+}
+#inputbox{
+   width:320px;
+   border:none;
+   margin:10px;
+   background: aqua; 
+   box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+   font-size:40px;
+   text-align:right;
+   cursor:pointer;
+   
+
+}
+button{
+    border:none;
+    width:60px;
+    height:60px;
+    margin:10px;
+    border-radius: 50%; 
+    color:black; 
+    font-weight:1000;
+    font-size:20px;
+    box-shadow:-8px -8px 15px rgba(255, 255,255, 0.8);
+    cursor:pointer;
+}
+#equalbtn{
+    background-color: #fb7c14;;
+}
+.operator{
+    background-color: rgb(153, 255, 0);
+}
